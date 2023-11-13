@@ -1,3 +1,7 @@
+/* 
+Exercise 1: CSS Methods
+*/
+
 div {
     background-color: red;
     color: white;
@@ -5,6 +9,10 @@ div {
     text-align: center;
     font-weight: bold;
 }
+
+/* 
+Exercise 2: CSS Class and ID Selectors
+*/
 
 .odd {
     background-color: lightpink;
@@ -24,3 +32,26 @@ div {
     background-color: lightgreen;
     font-weight: bold;
 }
+
+/* 
+Exercise 3: Grouping Selectors
+*/
+
+.grouping-button-one, .grouping-button-two {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.grouping-button-one {
+    background-color: black;
+    color: white;
+}
+
+.grouping-button-two {
+    background-color: yellow;
+}
+
+/* 
+Exercise 4: Chaining Selectors
+*/
+
