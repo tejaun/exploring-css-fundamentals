@@ -55,3 +55,16 @@ Exercise 3: Grouping Selectors
 Exercise 4: Chaining Selectors
 */
 
+.avatar.proportioned{
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted{
+    width: 200px;
+    height: 400px;
+}
+
+/* 
+Exercise 5: Descendant Combinator
+*/
