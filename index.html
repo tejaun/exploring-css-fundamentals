@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
   <head>
     <meta charset="UTF-8" />
     <title>Exploring CSS Fundamentals | A TeJaun RiChard Project</title>
@@ -19,16 +19,35 @@
     <h1>Exploring CSS Fundamentals</h1>
     <h4>By TeJaun RiChard</h4>
 
+    <!-- Project Overview -->
     <h2>Overview</h2>
 
+    <hr>
+    <!-- CSS Methods Challenge -->
     <h3>CSS Methods</h3>
+    <p>In this exercise, I practiced adding CSS to an HTML file using all three methods: external CSS, internal CSS, and inline CSS.</p>
+    <br>
+
     <div id="external-methods-exercise">External Method</div>
     <p id="internal-methods-exercise">Internal Method</p>
     <button style="background-color: orange; font-size: 18px">
       Inline Method
     </button>
 
+    <hr>
+    <!-- Class and ID Selectors Challenge -->
     <h3>Class and ID Selectors</h3>
+    <p>In this exercise, I assigned class and ID attributes to various elements and then applied CSS rules to style them. The key aspects were:
+      
+      <ul>
+        <li>Deciding whether to use class or ID attributes for each element, based on their styling needs.</li>
+        <li>Styling elements using non-keyword color values (like RGB, HEX, or HSL) and specific font properties.</li>
+        <li> Focusing on selector syntax in CSS to apply styles correctly to the targeted elements.</li>
+      </ul>
+
+      This exercise was aimed at understanding practical application of class and ID selectors in CSS.
+    </p>
+
     <p class="odd" id="cids-one">Element 1: I'm a class!</p>
     <div class="even" id="cids-two">Element 2: I'm one ID.</div>
     <p class="odd font-size-24" id="cids-three">
@@ -39,11 +58,19 @@
     </div>
     <p class="odd" id="cids-five">Element 5: Oh man, I'm a class too!</p>
 
+    <hr>
+    <!-- Grouping Selectors Challenge -->
     <h3>Grouping Selectors</h3>
+    <p>This exercise builds off of the previous challenge. Instead of having a single element with two different rules applied, I instead gave two elements each a unique class name, then added rules for styles that both elements shared as well as their own unique styles.</p>
+
     <button class="grouping-button-one">Click Here!</button>
     <button class="grouping-button-two">Click Here Instead!</button>
 
+    <hr>
+    <!-- Chaining Selectors Challenge -->
     <h3>Chaining Selectors</h3>
+    <p>The goal of this exercise was to enhance my skills in chaining different CSS selectors. I was given HTML code and two images, each assigned two class names, where one class name was shared between both images. My task was to apply unique styles to each image using chained selectors, despite the shared class.</p>
+
     <div>
       <img
         class="avatar proportioned"
@@ -70,7 +97,10 @@
       />
     </div>
 
+    <hr>
+    <!-- Descendant Combinator Challenge -->
     <h3>Descendant Combinator</h3>
+    <p>The goal of this exercise was to apply styles to elements that are descendants of another element, while leaving elements that aren't descendants of that element unstyled.</p>
 
     <div class="container">
       <p class="text">This should be styled.</p>
@@ -82,7 +112,18 @@
       <p class="text">This should be styled.</p>
     </div>
 
+    <hr>  
+    <!-- Cascade (Specificity) Challenge -->
     <h3>Cascade</h3>
+    <p>The final exercise was designed to deepen my understanding of the CSS cascade, focusing on specificity and rule order. Instead of creating new CSS rules, my task was to edit an existing CSS file that accompanied a fully written HTML file with the following constraints: 
+
+      <ul>
+        <li>I had to identify and resolve issues related to specificity and rule order in the provided CSS file. This meant analyzing how different CSS rules are applied to HTML elements and determining which rules take precedence.</li>
+        <li>I could only edit the CSS file by modifying selectors, adjusting the order of declaration blocks, or adding and removing selectors within a declaration block.</li>
+        <li>I couldn't alter the HTML code or the actual styles (properties and values) defined in the CSS.</li>
+      </ul>
+    </p>
+
     <p class="para">I'm just a paragraph with extra bold text!</p>
     <p class="para small-para">
       I'm a smaller paragraph, also with extra bold text!
@@ -98,6 +139,8 @@
         I'm a smaller child div with extra bold text.
       </div>
     </div>
+
+    <br>
 
   </body>
 
