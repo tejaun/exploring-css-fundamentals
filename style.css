@@ -5,3 +5,22 @@ div {
     text-align: center;
     font-weight: bold;
 }
+
+.odd {
+    background-color: lightpink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+#cids-two {
+    color: blue;
+    font-size: 36px;
+}
+
+#cids-four {
+    background-color: lightgreen;
+    font-weight: bold;
+}
